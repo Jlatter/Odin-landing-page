@@ -8,33 +8,70 @@
     
 
 }
+
+.heading1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 90px;
+    color: #f9faf8; 
+    
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
 .heading{
- color: #f9faf8;
- font-size: 48px;
- font-weight: 800;
- background-color: #1f2937;
- display: flex;
- padding: 16px;
+flex-basis: 400px;
+display: flex;
+ flex-direction: column;
+ text-align: left;
+ margin-right: 50px;
  
 }
+.main-img{
+    height:350px;
+    width: 500px;
+}
+.main-img img{
+ width: 500px;
+ height: 350px;   
+}
+
+
 .heading-links{
     text-decoration: none;
     display: flex;
-    gap: 8px;   
+    gap: 8px; 
+    margin-left: auto;  
 }
+
 a{
     color: #f9faf8;
 }
 body{
-    font-family:'Roboto', arial;
-    text-align: center;
-   
+   font-family:'Roboto', arial;
+   text-align: center;
+   margin: 0;
 }
 
 
 
-.logo, img{
+.logo img{
     width: 84px;
     height: 84px;
     margin-right: auto;
+    padding: 16px;
+}
+
+.signup1{
+    text-align: center;
+    width: 110px;
+    height: 50px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: block;
 }
