@@ -74,7 +74,7 @@ body{
     padding: 16px;
 }
 
-.signup1{
+button{
     text-align: center;
     width: 110px;
     height: 40px;
@@ -83,6 +83,8 @@ body{
     display: block;
     border-radius: 10px;
     border: #3882f6;
+    font-weight: 900;
+    font-size: 17px;
 }
 
 .img-content{
@@ -109,4 +111,51 @@ body{
     display: flex;
     flex-direction: column;
     flex-basis: 30px;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding: 20px;
+    font-style: italic;
+}
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    
+}
+.quoted{
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px 280px;
+    padding: 70px;
+    border-radius: 15px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.call{
+    display: flex;
+    justify-content: left;
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 36px;
+}
+.call-text{
+    color: #f9faf8;
+    font-size: 18px;
+    justify-content: left;
+    display: flex;
+}
+.signup2{
+margin-left: 450px;
+border: 2px solid #f9faf8;
+}
+.copyright{
+    background-color: #1f2937;
+    color: #f9faf8;
 }
