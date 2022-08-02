@@ -5,13 +5,13 @@
 .nav-bar{
     display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
     
 
 }
 
 .heading1{
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #1f2937;
     padding: 90px;
@@ -52,12 +52,16 @@ display: flex;
 .heading-links{
     text-decoration: none;
     display: flex;
-    gap: 8px; 
-    margin-left: auto;  
+    gap: 25px; 
+    margin-right: 220px;  
+    margin-top: 50px;
+    
 }
 
 a{
     color: #f9faf8;
+    text-decoration: none;
+    font-size: 18px
 }
 body{
    font-family:'Roboto', arial;
@@ -70,8 +74,8 @@ body{
 .logo img{
     width: 84px;
     height: 84px;
-    margin-right: auto;
-    padding: 16px;
+    margin-left: 180px;
+    padding: 30px;
 }
 
 button{
