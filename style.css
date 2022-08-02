@@ -75,3 +75,29 @@ body{
     color: #f9faf8;
     display: block;
 }
+
+.img-content{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 50px
+}
+.sub-heading{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.image-text img{
+ width: 200px;
+ height: 200px;
+ border: 5px solid #3882f6;
+ border-radius: 15px;
+}
+.image-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30px;
+}
